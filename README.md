@@ -19,9 +19,9 @@ We process data based on previous published resources, all the data are in the s
 | [Restaurant8k](https://arxiv.org/abs/2005.08866) 	| 8.2K 	| restaurant booking domain queries                                                   	| CC-BY-4.0                  	|
 | [DSTC8 SGD](https://arxiv.org/abs/1909.05855)    	| 20K  	| multi-domain, task-oriented conversations   between a human and a virtual assistant 	| CC-BY-SA 4.0 International 	|
 | [TOP](https://arxiv.org/abs/1810.07942)          	| 45K  	| compositional queries for hierachical   semantic representations                    	| CC-BY-SA                   	|
-| [MultiWOZ 2.1](https://arxiv.org/abs/1907.01669) 	| 12K  	| multi-domain dialogues with multiple turns     -->                                          	| MIT                        	|
+| [MultiWOZ 2.1](https://arxiv.org/abs/1907.01669) 	| 12K  	| multi-domain dialogues with multiple turns                                              	| MIT                        	|
 
-
+ -->
 ## Intent detection datasets with OOS queries
 
 
