@@ -11,8 +11,8 @@ Few-Shot-Intent-Detection is a repository designed for few-shot intent detection
 We process data based on previous published resources, all the data are in the same format as [DNNC](https://github.com/jianguoz/DNNC-few-shot-intent). 
 
 
-| Dataset      	| #Train | #Valid | #Test 	| Description  | Paper Link| Our Processed Data Link                                                                       	| License                    	|
-|--------------	|------	|-------------------------------------------------------------------------------------	|----------------------------	|
+| Dataset      	| #Train | #Valid | #Test 	| Description  | Paper Link| Our Processed Data Link| 
+|--------------	|------	|------	|------	|-------------------------------------------------------------------------------------	|----------------------------	|------	|
 | Banking77      	|8622|1540| 3080  	| one banking domain with 77 intents       | [Link](https://arxiv.org/abs/2003.04807)  | [Link]()                  	|
 | HWU64        |8954| 1076	| 1076 	| personal assistant with 64 intents and several domains                                                  	| [Link](https://arxiv.org/abs/1903.05566)             | Link	|
 <!-- | [CLINC150](https://www.aclweb.org/anthology/D19-1131/)        	| 20K  	| popular personal assistant queries                                                  	| CC-BY-SA 3.0               	|
