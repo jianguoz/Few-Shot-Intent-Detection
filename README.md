@@ -45,10 +45,12 @@ More details can check [code for load data and do random sampling for few-shot l
 
 ## Intent detection datasets with OOS queries
 
-| Dataset      	| Description  | #Train | #Valid | #Test 	|#OOS-Train |#OOS-Valid|#OOS-Test|  Processed Data Link| 
+| Dataset      	| Description  | #Train | #Valid | #Test 	|#OOD-OOS-Train |#OOD-OOS-Valid|#OOD-OOS-Test| #ID-OOS-Train |#ID-OOS-Valid|#ID-OOS-Test| Processed Data Link| 
 |--------------	|------	|------	|------	|---------------	|------	|------	|------	|------	|
-| [CLINC150](https://www.aclweb.org/anthology/D19-1131/)        | A dataset with general OOS-OOS queries |15000| 3000	| 4500  |	100| 100|1000| [Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/CLINC150)|                                             
-
+| [CLINC150](https://www.aclweb.org/anthology/D19-1131/)        | A dataset with general OOS-OOS queries |15000| 3000	| 4500  |	100| 100|1000| -|-|-|[Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/CLINC150)|
+| [CLINC-Single-Domain-OOS](https://arxiv.org/abs/2106.04564)        | Two domains with both general OOS-OOS queries and ID-OOS queries |500| 500	| 500  |-	| 200|1000| -|400|350|[Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/CLINC-Single-Domain-OOS)|                                             
+| [BANKING77-OOS](https://arxiv.org/abs/2106.04564)        | One banking domain with both general OOS-OOS queries and ID-OOS queries |5905| 1506	| 2000  |-	| 200|1000| 2062|530|1080|[Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/BANKING77-OOS)|      
+ 
 ## State-of-the art models and baselines
 
   
