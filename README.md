@@ -8,7 +8,7 @@ Few-Shot-Intent-Detection is a repository designed for few-shot intent detection
 
 ## Intent detection datasets
 
-We process data based on previous published resources, all the data are in the same format as [DNNC](https://github.com/jianguoz/DNNC-few-shot-intent). 
+We process data based on previous published resources, all the data are in the same format as [DNNC](https://github.com/jianguoz/DNNC-few-shot-intent). The data could be loaded through [code](https://github.com/jianguoz/DNNC-few-shot-intent/blob/ea6f39a225d62f87c05f3628206b06dcaeb56f01/models/utils.py#L123).
 
 
 | Dataset      	| Description  | #Train | #Valid | #Test 	|  Processed Data Link| 
