@@ -8,7 +8,7 @@ Few-Shot-Intent-Detection is a repository designed for few-shot intent detection
 
 ## Intent detection datasets
 
-We process data based on previous published resources, all the data are in the same format as [DNNC](https://github.com/jianguoz/DNNC-few-shot-intent). The data could be loaded through [code](https://github.com/jianguoz/DNNC-few-shot-intent/blob/ea6f39a225d62f87c05f3628206b06dcaeb56f01/models/utils.py#L123).
+We process data based on previous published resources, all the data are in the same format as [DNNC](https://github.com/jianguoz/DNNC-few-shot-intent). 
 
 
 | Dataset      	| Description  | #Train | #Valid | #Test 	|  Processed Data Link| 
@@ -25,6 +25,31 @@ We process data based on previous published resources, all the data are in the s
 | [MultiWOZ 2.1](https://arxiv.org/abs/1907.01669) 	| 12K  	| multi-domain dialogues with multiple turns                                              	| MIT                        	|
 
  -->
+
+You can easily load the processed data:
+```python
+class IntentExample:
+    def __init__(self, text, label, do_lower_case):
+        self.original_text = text
+        self.text = text
+        self.label = label
+
+        if do_lower_case:
+            self.text = self.text.lower()
+        
+def load_intent_examples(file_path, do_lower_case=True):
+    examples = []
+
+    with open('{}/seq.in'.format(file_path), 'r', encoding="utf-8") as f_text, open('{}/label'.format(file_path), 'r', encoding="utf-8") as f_label:
+        for text, label in zip(f_text, f_label):
+            e = IntentExample(text.strip(), label.strip(), do_lower_case)
+            examples.append(e)
+
+    return examples
+```
+
+More details can check [code for load data and do random sampling for few-shot learning](https://github.com/jianguoz/DNNC-few-shot-intent/blob/master/train_classifier.py#L127).
+
 ## Intent detection datasets with OOS queries
 
 
