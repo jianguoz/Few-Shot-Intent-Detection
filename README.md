@@ -18,13 +18,6 @@ We process data based on previous published resources, all the data are in the s
 | [HWU64](https://arxiv.org/abs/1903.05566)        | personal assistant with 64 intents and several domains                                                 |8954| 1076	| 1076 	|  [Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/HWU64)	|
 | [SNIPS](https://arxiv.org/pdf/1805.10190.pdf)        |snips voice platform with 7 intents   |13084| 700	| 700 	|  [Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/SNIPS)	|
 | [ATIS](https://ieeexplore.ieee.org/document/5700816)        |airline travel information system   |4478| 500	| 893 	|  [Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/SNIPS)	|
-<!-- | [CLINC150](https://www.aclweb.org/anthology/D19-1131/)        	| 20K  	| popular personal assistant queries                                                  	| CC-BY-SA 3.0               	|
-| [Restaurant8k](https://arxiv.org/abs/2005.08866) 	| 8.2K 	| restaurant booking domain queries                                                   	| CC-BY-4.0                  	|
-| [DSTC8 SGD](https://arxiv.org/abs/1909.05855)    	| 20K  	| multi-domain, task-oriented conversations   between a human and a virtual assistant 	| CC-BY-SA 4.0 International 	|
-| [TOP](https://arxiv.org/abs/1810.07942)          	| 45K  	| compositional queries for hierachical   semantic representations                    	| CC-BY-SA                   	|
-| [MultiWOZ 2.1](https://arxiv.org/abs/1907.01669) 	| 12K  	| multi-domain dialogues with multiple turns                                              	| MIT                        	|
-
- -->
 
 You can easily load the processed data:
 ```python
@@ -52,6 +45,9 @@ More details can check [code for load data and do random sampling for few-shot l
 
 ## Intent detection datasets with OOS queries
 
+| Dataset      	| Description  | #Train | #Valid | #Test 	|#OOS-Train |#OOS-Valid|#OOS-Test|  Processed Data Link| 
+|--------------	|------	|------	|------	|---------------	|------	|------	|------	|------	|
+| [CLINC150](https://www.aclweb.org/anthology/D19-1131/)        | A dataset with general OOS-OOS queries |15000| 3000	| 4500  |	100| 100|1000| [Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/CLINC150)|                                             
 
 ## State-of-the art models and baselines
 
