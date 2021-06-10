@@ -56,4 +56,54 @@ More details can check [code for load data and do random sampling for few-shot l
 
 ## State-of-the art models and baselines
 
-  
+
+**[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/)**
+
+Download pre-trained RoBERTa NLI checkpoint: 
+```bash
+wget https://storage.googleapis.com/sfr-dnnc-few-shot-intent/roberta_nli.zip
+```
+Access to public code: [Link](https://github.com/salesforce/DNNC-few-shot-intent)
+
+**[CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/)**
+
+Download pre-trained checkpoint: 
+```bash
+wget https://github.com/connorbrinton/polyai-models/releases/download/v1.0/model.tar.gz
+```
+
+Access to public code:
+```bash
+wget https://github.com/connorbrinton/polyai-models/archive/refs/tags/v1.0.zip
+```
+
+
+**[CONVBERT](https://arxiv.org/abs/2009.13570)** 
+
+Download pre-trained checkpoints: 
+
+Step-1: install [AWS CL2](https://aws.amazon.com/cli/): e.g., install [MacOS PKG](https://awscli.amazonaws.com/AWSCLIV2.pkg)
+
+Step-2: 
+```bash
+aws s3 cp s3://dialoglue/ --no-sign-request `Your_folder_name` --recursive
+```
+Then the checkpoints are downloaded into  `Your_folder_name`
+
+## Few-shot intent detection results:
+
+**5-shot learning**
+
+Coming soon
+
+**10-shot learning**
+
+| Model      	| BANKING77  | CLICN150 | HWU64 | 
+|--------------	|------	|------	|------	|
+|[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) | 84.27 | 91.55 | 82.89 |
+|[USE+CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/)        | 85.19 | 93.26 | 85.83 | 
+|[CONVBERT+MLM](https://arxiv.org/abs/2009.13570)       | 83.99 | 92.75 | 84.52 |
+|[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/)               | 86.71 | 93.76 | 84.72 | 
+
+`Note:` All the results are reported by the paper authors.
+
