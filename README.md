@@ -23,11 +23,29 @@ We process data based on previous published resources, all the data are in the s
 
 ## Intent detection datasets with OOS queries
 
+
+What is OOS queires:
+
+`OOD-OOS`: i.e., out-of-domain OOS. General out-of-scope queries which are not supported by the dialog systems, also called out-of-domain OOS. For instance, requesting an online NBA/TV show service in a banking system.
+
+`ID-OOS`: i.e., in-domain OOS. Out-of-scope queries which are more related to the in-scope intents, which makes the intent detection task more challenging. For instance, requesting a banking service that is not supported by the banking system.
+
 | Dataset      	| Description  | #Train | #Valid | #Test 	|#OOD-OOS-Train |#OOD-OOS-Valid|#OOD-OOS-Test| #ID-OOS-Train |#ID-OOS-Valid|#ID-OOS-Test| Processed Data Link| 
 |--------------	|------	|------	|------	|---------------	|------	|------	|------	|------	|------	|------|------	|
 | [CLINC150](https://www.aclweb.org/anthology/D19-1131/)        | A dataset with general OOS-OOS queries |15000| 3000	| 4500  |	100| 100|1000| -|-|-|[Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/CLINC150)|
 | [CLINC-Single-Domain-OOS](https://arxiv.org/abs/2106.04564)        | Two domains with both general OOS-OOS queries and ID-OOS queries |500| 500	| 500  |-	| 200|1000| -|400|350|[Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/CLINC-Single-Domain-OOS)|                                             
 | [BANKING77-OOS](https://arxiv.org/abs/2106.04564)        | One banking domain with both general OOS-OOS queries and ID-OOS queries |5905| 1506	| 2000  |-	| 200|1000| 2062|530|1080|[Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/BANKING77-OOS)|      
+
+
+Briefly describe the [BANKING77-OOS](https://arxiv.org/abs/2106.04564) dataset. 
+
+*  A dataset with a single banking domain, includes both general Out-of-Scope (OOD-OOS) queries and In-Domain but Out-of-Scope (ID-OOS) queries, where ID-OOS queries are semantically similar intents/queries with in-scope intents.  BANKING77 originally includes 77 intents. BANKING77-OOS includes 50 in-scope intents in this dataset, and the ID-OOS queries are built up based on 27 held-out semantically similar in-scope intents.
+
+Briefly describe the [CLINC-Single-Domain-OOS](https://arxiv.org/abs/2106.04564) dataset. 
+
+*  A dataset with two separate domains, i.e., the  "Banking''  domain and the "Credit cards''  domain with both general Out-of-Scope (OOD-OOS) queries and In-Domain but Out-of-Scope (ID-OOS) queries, where ID-OOS queries are semantically similar intents/queries with in-scope intents. Each domain in CLINC150 originally includes 15 intents. Each domain in the new dataset includes ten in-scope intents in this dataset, and the ID-OOS queries are built up based on five held-out semantically similar in-scope intents.
+
+Both datasets can be used to conduct intent detection with and without OOD-OOS and ID-OOS queries
 
 
 You can easily load the processed data:
@@ -106,4 +124,5 @@ Coming soon
 |[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/)               | 86.71 | 93.76 | 84.72 | 
 
 `Note:` All the results are reported by the paper authors.
+
 
