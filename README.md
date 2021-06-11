@@ -8,7 +8,7 @@ Few-Shot-Intent-Detection is a repository designed for few-shot intent detection
 
 ## Intent detection datasets
 
-We process data based on previous published resources, all the data are in the same format as [DNNC](https://github.com/jianguoz/DNNC-few-shot-intent). 
+We process data based on previous published resources, all the data are in the same format as [DNNC](https://github.com/salesforce/DNNC-few-shot-intent). 
 
 
 | Dataset      	| Description  | #Train | #Valid | #Test 	|  Processed Data Link| 
@@ -70,7 +70,7 @@ def load_intent_examples(file_path, do_lower_case=True):
     return examples
 ```
 
-More details can check [code for load data and do random sampling for few-shot learning](https://github.com/jianguoz/DNNC-few-shot-intent/blob/master/train_classifier.py#L127).
+More details can check [code for load data and do random sampling for few-shot learning](https://github.com/salesforce/DNNC-few-shot-intent/blob/master/train_classifier.py#L127).
 
 ## State-of-the art models and baselines
 
