@@ -125,4 +125,15 @@ Coming soon
 
 `Note:` All the results are reported by the paper authors.
 
+## Citation
 
+Please cite our paper if you use above resources in your work:
+
+```bibtex
+@article{zhang2021pretrained,
+  title={Are Pretrained Transformers Robust in Intent Classification? A Missing Ingredient in Evaluation of Out-of-Scope Intent Detection},
+  author={Zhang, Jian-Guo and Hashimoto, Kazuma and Wan, Yao and Liu, Ye and Xiong, Caiming and Yu, Philip S},
+  journal={arXiv preprint arXiv:2106.04564},
+  year={2021}
+}
+```
