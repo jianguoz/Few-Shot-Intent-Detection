@@ -4,7 +4,6 @@
 Few-Shot-Intent-Detection is a repository designed for few-shot intent detection with/without Out-of-Scope (OOS) intents. It includes popular challenging intent detection datasets and baselines. For more details of the new released OOS datasets, please check our [paper](https://arxiv.org/abs/2106.04564).
 
 
-**---Note: We will update the repository soon---**
 
 ## Intent detection datasets
 
