@@ -195,9 +195,9 @@ Then the checkpoints are downloaded into  `Your_folder_name`
 | Model      	| BANKING77  | CLICN150 | HWU64 | 
 |--------------	|------	|------	|------	|
 |[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) (EMNLP 2020) | 84.27 | 91.55 | 82.90 |
-|[USE](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 84.23 | 90.85 | 83.75 |
-|[CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 83.32 | 92.62 | 82.65|
-|[USE+CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/)        | 85.19 | 93.26 | 85.83 | 
+|[USE](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) (ACL 2020 NLP4ConvAI)| 84.23 | 90.85 | 83.75 |
+|[CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/)(ACL 2020 NLP4ConvAI) | 83.32 | 92.62 | 82.65|
+|[USE+CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) (ACL 2020 NLP4ConvAI)       | 85.19 | 93.26 | 85.83 | 
 |[CONVBERT](https://arxiv.org/abs/2009.13570) (ArXiv 2020)| 83.63 | 92.10 | 83.77 |
 |[CONVBERT+MLM](https://arxiv.org/abs/2009.13570)  (ArXiv 2020)     | 83.99 | 92.75 | 84.52 |
 |[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2009.13570) (NAACL 2021) | 85.95 | 93.97 | 86.28 |
