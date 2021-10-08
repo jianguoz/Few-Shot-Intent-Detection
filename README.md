@@ -36,6 +36,8 @@ What is OOS queires:
 | [BANKING77-OOS](https://arxiv.org/abs/2106.04564)        | One banking domain with both general OOS-OOS queries and ID-OOS queries |5905| 1506	| 2000  |-	| 200|1000| 2062|530|1080|[Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/BANKING77-OOS)|      
 
 
+Data structure:
+
 ```
 Datasets/
 ├── BANKING77
