@@ -204,7 +204,7 @@ Then the checkpoints are downloaded into  `Your_folder_name`
 |[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/) (EMNLP 2020)              | 86.71 | 93.76 | 84.72 |
 |[CPFT](https://arxiv.org/pdf/2109.06349.pdf) (EMNLP 2021) |87.20| 94.18 | 87.13|
 
-`Note:` All the results are reported by the paper authors.
+`Note:` the 5-shot learning results of RoBERTa+Classifier, DNNC and CPFT, and the 10-shot learning results of all the models are reported by the paper authors. 
 
 ## Citation
 
