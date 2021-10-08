@@ -100,7 +100,7 @@ Datasets/
 │   │   ├── ood-oos
 │   │       ├──valid
 └── └──     └──test
-
+```
 
 Briefly describe the [BANKING77-OOS](https://arxiv.org/abs/2106.04564) dataset. 
 
