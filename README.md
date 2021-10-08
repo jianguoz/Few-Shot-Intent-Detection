@@ -181,28 +181,28 @@ Then the checkpoints are downloaded into  `Your_folder_name`
 
 | Model      	| BANKING77  | CLICN150 | HWU64 | 
 |--------------	|------	|------	|------	|
-|[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) | 74.04 | 87.99 | 75.56 |
-|[USE](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 76.29 | 87.82 | 77.79 |
-|[CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 75.32 | 89.22 | 76.95|
-|[USE+CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/)        | 77.75 | 90.49 | 80.01 | 
-|[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2009.13570)       | - | - | - |
-|[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/)               | 80.40 | 91.02 | 80.46 | 
-|[CPFT](https://arxiv.org/pdf/2109.06349.pdf) |80.86| 92.34 | 82.03|
+|[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) (EMNLP 2020) | 74.04 | 87.99 | 75.56 |
+|[USE](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) (ACL 2020 NLP4ConvAI)| 76.29 | 87.82 | 77.79 |
+|[CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) (ACL 2020 NLP4ConvAI)| 75.32 | 89.22 | 76.95|
+|[USE+CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) (ACL 2020 NLP4ConvAI)      | 77.75 | 90.49 | 80.01 | 
+|[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2009.13570)  (NAACL 2021)     | - | - | - |
+|[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/) (EMNLP 2020)              | 80.40 | 91.02 | 80.46 | 
+|[CPFT](https://arxiv.org/pdf/2109.06349.pdf) (EMNLP 2021) |80.86| 92.34 | 82.03|
 
 
 **10-shot learning**
 
 | Model      	| BANKING77  | CLICN150 | HWU64 | 
 |--------------	|------	|------	|------	|
-|[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) | 84.27 | 91.55 | 82.90 |
+|[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) (EMNLP 2020) | 84.27 | 91.55 | 82.90 |
 |[USE](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 84.23 | 90.85 | 83.75 |
 |[CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 83.32 | 92.62 | 82.65|
 |[USE+CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/)        | 85.19 | 93.26 | 85.83 | 
-|[CONVBERT](https://arxiv.org/abs/2009.13570) | 83.63 | 92.10 | 83.77 |
-|[CONVBERT+MLM](https://arxiv.org/abs/2009.13570)       | 83.99 | 92.75 | 84.52 |
-|[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2009.13570) | 85.95 | 93.97 | 86.28 |
-|[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/)               | 86.71 | 93.76 | 84.72 |
-|[CPFT](https://arxiv.org/pdf/2109.06349.pdf) |87.20| 94.18 | 87.13|
+|[CONVBERT](https://arxiv.org/abs/2009.13570) (ArXiv 2020)| 83.63 | 92.10 | 83.77 |
+|[CONVBERT+MLM](https://arxiv.org/abs/2009.13570)  (ArXiv 2020)     | 83.99 | 92.75 | 84.52 |
+|[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2009.13570) (NAACL 2021) | 85.95 | 93.97 | 86.28 |
+|[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/) (EMNLP 2020)              | 86.71 | 93.76 | 84.72 |
+|[CPFT](https://arxiv.org/pdf/2109.06349.pdf) (EMNLP 2021) |87.20| 94.18 | 87.13|
 
 `Note:` All the results are reported by the paper authors.
 
