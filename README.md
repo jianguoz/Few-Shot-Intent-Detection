@@ -211,10 +211,25 @@ Then the checkpoints are downloaded into  `Your_folder_name`
 Please cite our paper if you use above resources in your work:
 
 ```bibtex
+@article{zhang2020discriminative,
+  title={Discriminative nearest neighbor few-shot intent detection by transferring natural language inference},
+  author={Zhang, Jian-Guo and Hashimoto, Kazuma and Liu, Wenhao and Wu, Chien-Sheng and Wan, Yao and Yu, Philip S and Socher, Richard and Xiong, Caiming},
+  journal={EMNLP},
+  pages={5064--5082},
+  year={2020}
+}
+
 @article{zhang2021pretrained,
   title={Are Pretrained Transformers Robust in Intent Classification? A Missing Ingredient in Evaluation of Out-of-Scope Intent Detection},
   author={Zhang, Jian-Guo and Hashimoto, Kazuma and Wan, Yao and Liu, Ye and Xiong, Caiming and Yu, Philip S},
   journal={arXiv preprint arXiv:2106.04564},
+  year={2021}
+}
+
+@article{zhang2021few,
+  title={Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning},
+  author={Zhang, Jianguo and Bui, Trung and Yoon, Seunghyun and Chen, Xiang and Liu, Zhiwei and Xia, Congying and Tran, Quan Hung and Chang, Walter and Yu, Philip},
+  journal={EMNLP},
   year={2021}
 }
 ```
