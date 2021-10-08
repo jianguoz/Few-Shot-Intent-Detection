@@ -36,6 +36,72 @@ What is OOS queires:
 | [BANKING77-OOS](https://arxiv.org/abs/2106.04564)        | One banking domain with both general OOS-OOS queries and ID-OOS queries |5905| 1506	| 2000  |-	| 200|1000| 2062|530|1080|[Link](https://github.com/jianguoz/Few-Shot-Intent-Detection/tree/main/Datasets/BANKING77-OOS)|      
 
 
+```
+Datasets/
+├── BANKING77
+│   ├── train
+│   ├── train_10
+│   ├── train_5
+│   ├── valid
+│   └── test
+├── CLINC150
+│   ├── train
+│   ├── train_10
+│   ├── train_5
+│   ├── valid
+│   ├── test
+│   ├── oos
+│       ├──train
+│       ├──valid
+│       └──test
+├── HWU64
+│   ├── train
+│   ├── train_10
+│   ├── train_5
+│   ├── valid
+│   └── test
+├── SNIPS
+│   ├── train
+│   ├── valid
+│   └── test
+├── ATIS
+│   ├── train
+│   ├── valid
+│   └── test
+├── BANKING77-OOS
+│   ├── train
+│   ├── valid
+│   ├── test
+│   ├── id-oos
+│   │   ├──train
+│   │   ├──valid
+│   │   └──test
+│   ├── ood-oos
+│       ├──valid
+│       └──test
+├── CLINC-Single-Domain-OOS
+│   ├── banking
+│   │   ├── train
+│   │   ├── valid
+│   │   ├── test
+│   │   ├── id-oos
+│   │   │   ├──valid
+│   │   │   └──test
+│   │   ├── ood-oos
+│   │       ├──valid
+│   │       └──test
+│   ├── credit_cards
+│   │   ├── train
+│   │   ├── valid
+│   │   ├── test
+│   │   ├── id-oos
+│   │   │   ├──valid
+│   │   │   └──test
+│   │   ├── ood-oos
+│   │       ├──valid
+└── └──     └──test
+
+
 Briefly describe the [BANKING77-OOS](https://arxiv.org/abs/2106.04564) dataset. 
 
 *  A dataset with a single banking domain, includes both general Out-of-Scope (OOD-OOS) queries and In-Domain but Out-of-Scope (ID-OOS) queries, where ID-OOS queries are semantically similar intents/queries with in-scope intents.  BANKING77 originally includes 77 intents. BANKING77-OOS includes 50 in-scope intents in this dataset, and the ID-OOS queries are built up based on 27 held-out semantically similar in-scope intents.
@@ -111,16 +177,30 @@ Then the checkpoints are downloaded into  `Your_folder_name`
 
 **5-shot learning**
 
-Coming soon
+| Model      	| BANKING77  | CLICN150 | HWU64 | 
+|--------------	|------	|------	|------	|
+|[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) | 74.04 | 87.99 | 75.56 |
+|[USE](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 76.29 | 87.82 | 77.79 |
+|[CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 75.32 | 89.22 | 76.95|
+|[USE+CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/)        | 77.75 | 90.49 | 80.01 | 
+|[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2009.13570)       | - | - | - |
+|[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/)               | 80.40 | 91.02 | 80.46 | 
+|[CPFT](https://arxiv.org/pdf/2109.06349.pdf) |80.86| 92.34 | 82.03|
+
 
 **10-shot learning**
 
 | Model      	| BANKING77  | CLICN150 | HWU64 | 
 |--------------	|------	|------	|------	|
-|[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) | 84.27 | 91.55 | 82.89 |
+|[RoBERTa+Classifier](https://www.aclweb.org/anthology/2020.emnlp-main.411/) | 84.27 | 91.55 | 82.90 |
+|[USE](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 84.23 | 90.85 | 83.75 |
+|[CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/) | 83.32 | 92.62 | 82.65|
 |[USE+CONVERT](https://www.aclweb.org/anthology/2020.nlp4convai-1.5/)        | 85.19 | 93.26 | 85.83 | 
+|[CONVBERT](https://arxiv.org/abs/2009.13570) | 83.63 | 92.10 | 83.77 |
 |[CONVBERT+MLM](https://arxiv.org/abs/2009.13570)       | 83.99 | 92.75 | 84.52 |
-|[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/)               | 86.71 | 93.76 | 84.72 | 
+|[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2009.13570) | 85.95 | 93.97 | 86.28 |
+|[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/)               | 86.71 | 93.76 | 84.72 |
+|[CPFT](https://arxiv.org/pdf/2109.06349.pdf) |87.20| 94.18 | 87.13|
 
 `Note:` All the results are reported by the paper authors.
 
