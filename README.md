@@ -175,7 +175,7 @@ aws s3 cp s3://dialoglue/ --no-sign-request `Your_folder_name` --recursive
 ```
 Then the checkpoints are downloaded into  `Your_folder_name`
 
-## Few-shot intent detection results:
+## Few-shot intent detection baselines/leaderboard:
 
 **5-shot learning**
 
