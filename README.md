@@ -227,7 +227,7 @@ Please cite our paper if you use above resources in your work:
 @article{zhang2022pretrained,
   title={Are Pretrained Transformers Robust in Intent Classification? A Missing Ingredient in Evaluation of Out-of-Scope Intent Detection},
   author={Zhang, Jian-Guo and Hashimoto, Kazuma and Wan, Yao and Liu, Zhiwei and Liu, Ye and Xiong, Caiming and Yu, Philip S},
-  journal={Proceedings of the 4th Workshop on NLP for Conversational AI, ACL 2022},
+  journal={The 4th Workshop on NLP for Conversational AI, ACL 2022},
   year={2022}
 }
 ```
