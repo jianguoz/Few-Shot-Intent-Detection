@@ -218,18 +218,16 @@ Please cite our paper if you use above resources in your work:
   pages={5064--5082},
   year={2020}
 }
-
-@article{zhang2021pretrained,
-  title={Are Pretrained Transformers Robust in Intent Classification? A Missing Ingredient in Evaluation of Out-of-Scope Intent Detection},
-  author={Zhang, Jian-Guo and Hashimoto, Kazuma and Wan, Yao and Liu, Ye and Xiong, Caiming and Yu, Philip S},
-  journal={arXiv preprint arXiv:2106.04564},
-  year={2021}
-}
-
 @article{zhang2021few,
   title={Few-Shot Intent Detection via Contrastive Pre-Training and Fine-Tuning},
   author={Zhang, Jianguo and Bui, Trung and Yoon, Seunghyun and Chen, Xiang and Liu, Zhiwei and Xia, Congying and Tran, Quan Hung and Chang, Walter and Yu, Philip},
   journal={EMNLP},
   year={2021}
+}
+@article{zhang2022pretrained,
+  title={Are Pretrained Transformers Robust in Intent Classification? A Missing Ingredient in Evaluation of Out-of-Scope Intent Detection},
+  author={Zhang, Jian-Guo and Hashimoto, Kazuma and Wan, Yao and Liu, Zhiwei and Liu, Ye and Xiong, Caiming and Yu, Philip S},
+  journal={Proceedings of the 4th Workshop on NLP for Conversational AI, ACL 2022},
+  year={2022}
 }
 ```
