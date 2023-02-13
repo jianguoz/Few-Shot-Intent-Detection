@@ -188,6 +188,7 @@ Then the checkpoints are downloaded into  `Your_folder_name`
 |[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2010.08684)  (NAACL 2021)     | - | - | - |
 |[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/) (EMNLP 2020)              | 80.40 | 91.02 | 80.46 | 
 |[CPFT](https://arxiv.org/pdf/2109.06349.pdf) (EMNLP 2021) |80.86| 92.34 | 82.03|
+|[ICDA](https://arxiv.org/abs/2302.05096) (EACL 2023) |84.01| 92.62 | 82.45|
 
 
 **10-shot learning**
@@ -203,6 +204,7 @@ Then the checkpoints are downloaded into  `Your_folder_name`
 |[CONVBERT+MLM+Example+Observers](https://arxiv.org/abs/2010.08684) (NAACL 2021) | 85.95 | 93.97 | 86.28 |
 |[DNNC](https://www.aclweb.org/anthology/2020.emnlp-main.411/) (EMNLP 2020)              | 86.71 | 93.76 | 84.72 |
 |[CPFT](https://arxiv.org/pdf/2109.06349.pdf) (EMNLP 2021) |87.20| 94.18 | 87.13|
+|[ICDA](https://arxiv.org/abs/2302.05096) (EACL 2023) |89.79| 94.84 | 87.41|
 
 `Note:` the 5-shot learning results of RoBERTa+Classifier, DNNC and CPFT, and the 10-shot learning results of all the models are reported by the paper authors. 
 
