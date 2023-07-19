@@ -1,6 +1,6 @@
 # Few-Shot-Intent-Detection
 
-## :bangbang: ❤️ ‼️ **07/18/2023: Check our latest updates on [DialogStudio](https://github.com/salesforce/DialogStudio), 
+## :bangbang: ❤️ ‼️ **07/18/2023: Check our latest updates on [DialogStudio](https://github.com/salesforce/DialogStudio)
 
 [DialogStudio](https://github.com/salesforce/DialogStudio) is a meticulously curated collection of dialogue datasets. These datasets are unified under a consistent format while retaining their original information. We incorporate domain-aware prompts and identify dataset licenses, making DialogStudio an exceptionally rich and diverse resource for dialogue research and model training.**
 
