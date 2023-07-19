@@ -1,6 +1,6 @@
 # Few-Shot-Intent-Detection
 
-:bangbang: **07/18/2023: Check our latest updates on [DialogStudio](https://github.com/salesforce/DialogStudio)**, a meticulously curated collection of dialogue datasets. These datasets are unified under a consistent format while retaining their original information. We incorporate domain-aware prompts and identify dataset licenses, making DialogStudio an exceptionally rich and diverse resource for dialogue research and model training.
+:bangbang: **07/18/2023: Check our latest updates on [DialogStudio](https://github.com/salesforce/DialogStudio), a meticulously curated collection of dialogue datasets. These datasets are unified under a consistent format while retaining their original information. We incorporate domain-aware prompts and identify dataset licenses, making DialogStudio an exceptionally rich and diverse resource for dialogue research and model training.**
 
 
 Few-Shot-Intent-Detection is a repository designed for few-shot intent detection with/without Out-of-Scope (OOS) intents. It includes popular challenging intent detection datasets and baselines. For more details of the new released OOS datasets, please check our [paper](https://arxiv.org/abs/2106.04564).
